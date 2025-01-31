@@ -12,6 +12,6 @@ export class ClickResultComponent {
   trackOtherUrl = new Subject();
 
   onTrackOtherUrl(){
-    this.trackOtherUrl.next("Ayush");
+    this.trackOtherUrl.next("Ayush tomar");
   }
 }
