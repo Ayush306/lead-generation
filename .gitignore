@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
+./.vscode/*
 
 # Node
 /node_modules
@@ -30,6 +31,14 @@ yarn-error.log
 
 # Miscellaneous
 /.angular/cache
+./sonarlint/
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+./scanwork/
 .sass-cache/
 /connect.lock
 /coverage
@@ -40,3 +49,5 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+.scannerwork/*
+.vscode/*
